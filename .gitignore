@@ -119,3 +119,7 @@ bower_components
 
 #typescript
 typings
+
+#Python
+.pyc
+__pycache__/
