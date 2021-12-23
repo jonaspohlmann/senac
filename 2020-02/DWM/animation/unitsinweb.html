@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de Medida</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            /*Tamanho da fonte raiz*/
+            font-size: 18px;
+        }
+
+        #container {
+            font-size: 1.8em;
+            width: 90%;
+            /*Ocupa 100% da altura disponível na tela*/
+            height: 50vh;
+            background-color: lightgray;
+        }
+
+        #carro{
+            /*20% do tamanho da fonte do elemento pai (container)*/
+            font-size: 0.2em;
+            background-color: lightblue;
+            width: 90%;
+        }
+
+        #volante{
+            /*60% maior em relação à fonte do elemento raiz (body)*/
+            font-size: 1.6rem;
+            background-color: lightyellow;
+            /*Ocupa 50% da largura disponível na tela*/
+            width: 50vw;
+        }
+
+        #banco{
+            /*50% maior em relação à fonte herdada do elemento pai (carro)*/
+            font-size: 1.5em;
+            background-color: lightpink;
+            height: 3vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    	<!--  -->
+        Estou no container 
+        <div id="carro">
+        	<!--  -->
+            Estou no carro
+            <div id="volante">
+            	<!--  -->
+                Estou no volante
+            </div>
+            <div id="banco">
+            	<!-- -->
+                Estou no banco
+            </div>
+        </div>
+    </div>
+</body>
+</html>

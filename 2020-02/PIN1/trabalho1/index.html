@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Exercício 2: Cadastro de Usuários</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Cadastro de Novos Usuários</h1>
+        <form name="form">
+            <h2>Dados Pessoais</h2>
+            <div class="labels">
+                <label for="nomeCompleto">Nome Completo:</label><br/>
+                <label for="endereco">Endereço:</label><br/>
+                <label for="cidade">Cidade:</label><br/>
+                <label for="estado">Estado:</label><br/>
+            </div>
+            <div class="inputs">
+                <input type="text" id="nomeCompleto" required><br/>
+                <input type="text" id="endereco" required><br/>
+                <input type="text" id="cidade" required><br/>
+                <select id="estado">
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select><br/>
+            </div>
+            <h2>Dados de Sistema</h2>
+            
+            <div class="labels">
+                <label for="nomeUsuario">Nome de Usuário:</label><br/>
+                <label for="senha">Senha:</label><br/>
+                <label for="confirmaSenha">Confirme a Senha:</label><br/>
+            </div>
+
+            <div class="inputs">
+                <input type="text" id="nomeUsuario" required><br/>
+                <input type="password" id="senha" name="senha" required><br/>
+                <input type="password" id="confirmaSenha" name="confirmaSenha" required><br/>
+            </div>
+            <div class="submit"> 
+                <input type="submit" class="button" value="Cadastrar o Usuário" onclick="scriptTrabalho()">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

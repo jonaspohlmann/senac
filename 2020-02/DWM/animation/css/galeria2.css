@@ -1,0 +1,83 @@
+/*Código de animação*/
+/*A palavra Keyframes indica que é uma animação*/
+@keyframes iresquerda{
+    /*Estado Inicial*/
+    from{
+        margin-left: 700px;
+    }
+
+    /*Estado Final*/
+    to{
+        margin-left: 5px;
+    }
+}
+
+h1{
+    /*Define o nome da animação que será usada*/
+    animation-name: iresquerda;
+    /*Define a duração desta animnação*/
+    animation-duration: 3s;
+}
+
+/*Código de animação*/
+/*A palavra Keyframes indica que é uma animação*/
+@keyframes acelera{
+    /*Estado Inicial*/
+    from{
+        margin-left: 0px;
+    }
+
+    /*Estado Final*/
+    to{
+        margin-left: 800px;
+    }
+}
+
+.carro{
+    width: 100px;
+    
+    /*Define o nome da animação que será usada*/
+    animation-name: acelera;
+    /*Define a duração desta animnação*/
+    animation-duration: 8s ;
+}
+
+#car1{
+    /*Mantém a mesma velocidade*/
+    animation-timing-function: linear;
+    /*Começa a animação ao contrário*/
+    animation-direction: reverse;
+}
+
+#car2{
+    /*Começa lento, fica rápido e termina lento*/
+    animation-timing-function: ease;
+    /*Quantas vezes ocorre a animação*/
+    animation-iteration-count: 2;
+    /*Executa a animação do começo ao fim e depois executa a animação ao contrário*/
+    animation-direction: alternate;
+}
+
+#car3{
+    /*Começa lento, termina rápido*/
+    animation-timing-function: ease-in;
+    /*Executa a animação do começo ao fim e depois executa a animação ao contrário*/
+    animation-direction: alternate-reverse;
+    /*Quantas vezes ocorre a animação*/
+    animation-iteration-count: infinite;
+}
+
+#car4{
+    /*Começa muito rápido, termina lento*/
+    animation-timing-function: ease-out;
+}
+
+#car5{
+    /*Começa e termina lento*/
+    animation-timing-function: ease-in-out;
+}
+
+#car6{
+    /*Espera 1 segundo antes de inciiar a animação*/
+    animation-delay: 1s;
+}

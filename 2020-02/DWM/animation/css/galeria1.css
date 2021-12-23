@@ -1,0 +1,47 @@
+#car1{
+    /*A função translate, move um elemento. Neste caso, está movevendo o objeto 100px a direita e 80px para baixo.  Numeros positivos na horizontaal move o objeto para direita Números positivos na vertical, move o objeto para baixo Numeros negativos na horizontaal move o objeto para esquerda Números negativos na vertical, move o objeto para cima translate(horizontal, vertical)*/
+    transform: translate(100px, 80px)   
+}
+
+#car2{
+    /*rotate rotaciona um elemento em x graus - "deg"*/
+    transform: rotate(45deg);
+}
+
+#car3{
+    /*scale aumenta ou diminui o tamanho de um elemento scale(largura, altura), lembrando que 1=100% e 1.2=120% scaleX(horizontal), scaleY(vertical)*/
+    transform: scale(1.5,1.5);
+}
+
+#car4{
+    /*Inicia uma transição de 5 segundos, quando o valor da propriedade transform for alterado*/
+    transition: transform;
+    transition-duration: 5s;
+}
+
+#car4:hover{
+    transform: scale(0.5, 0.5);
+}
+
+#car5{
+    width: 250px;
+    height: 250px;
+    /*Monitora alteração de valores em duas propriedades*/
+    transition: width 5s, height 2s;
+}
+
+#car5:hover{
+    width: 350px;
+    height: 350px;
+    
+}
+
+#car6{
+    transition: transform 3s;
+    /*Define um tempo de atraso para iniciar a transição*/
+    
+}
+
+#car6:hover{
+    transform: translate(250px, 80px) rotate(10deg);
+}

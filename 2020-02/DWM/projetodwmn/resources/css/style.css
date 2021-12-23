@@ -1,0 +1,159 @@
+/*Configurações básicas*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #FFF;
+    font-family: 'Lato', 'Arial', Sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    /*Otimiza a renderização da fonte para a leitura, neste caso optamos por uma melhor qualidade*/
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    /*Define a largura max das linhas "rows" */
+    max-width: 1140px;/*Depende da argura max do monitor*/
+    /*Define que o container fique centralizado*/
+    margin: 0 auto;
+}
+
+header{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url(../../vendors/img/steak.jpg);
+    /* o header vai ter 100% da altura do monitor */
+    height: 100vh;
+    /* Centraliza a imagem de fundo*/
+    background-position: center;
+    /* Ajusta o tamhano da imagem para a tela*/
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    /*O tamanho da fonte padrão está definido no seletor HTML 20px*/
+    font-size: 240%;
+    /*todas as letras em maiusculo*/
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 20px; /*Espaço entre as frases e os botões*/
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #E67E22;
+    margin: 0 auto; /*Centraliza o elemento*/
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid #E67E22;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #E67E22;
+    /*Espaçamento entre os botões*/
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: #E67E22;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #CF6D17;
+    border: 1px solid #CF6D17;
+    color: #FFF;
+}
+
+/*Definições do NAV*/
+.logo {
+    height: 100px;
+    float: left;
+    margin-top: 20px; /*Coloca um espaçamento acima da logo*/
+}
+
+.main-nav {
+    float: right;
+    list-style: none; /*remove os marcadores*/
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 4px 0;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    /*Ao passar o mouse, aparece uma borda inferior*/
+    border-bottom: 2px solid #E67E22;
+}
+
+/*Definições de estilo da seção featires*/
+ion-icon {
+    font-size: 350%;
+    display: block;
+    color: #E67E22;
+    margin-bottom: 10px; /*espaço entre o ícone e o título da funcionalidade (h3)*/
+}
+
+section {
+    padding: 80px 0;
+}

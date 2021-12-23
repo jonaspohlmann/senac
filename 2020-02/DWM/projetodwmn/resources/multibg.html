@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Era do Gelo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap">
+    
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #container{
+            width: 95vw;
+            height: 100vh;
+            margin: 0 auto;
+            background: 
+            url(../vendors/css/img/pacote_imagens/passaros.png),
+            url(../vendors/css/img/pacote_imagens/nuvem.png),
+            url(../vendors/css/img/pacote_imagens/grama.png),
+            url(../vendors/css/img/pacote_imagens/esquilo.png),
+            linear-gradient(#265FAC, #C1E4FF);
+
+            /*tamanho img fundo*/
+
+            /*1° parametro é a largura 2° é a altura ex: 250px 500px neste contexto*/
+            background-size: 
+            50%, 
+            auto,
+            auto,
+            250px, /*largura do esquilo*/
+            auto;
+            
+            background-repeat: 
+            no-repeat, 
+            no-repeat,
+            repeat-X,/*REPETIÇÃO NO EIXO X*/
+            no-repeat,
+            no-repeat;
+
+            background-position: 
+            top right, 
+            top left,
+            bottom,
+            bottom 50px right 30px, /*alinha para baixo, mas com margin-bottom de 50px e alinhado  á direita com margin-right de 30px*/
+            center;
+        }
+
+        h2 {
+            color: #FFF;
+            font-family: 'Raleway', 'Arial', sans-serif;
+            font-size: 40px;
+            padding-top: 380px;
+            padding-left: 130px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>20 de Agosto nos cinemas!</h2>
+    </div>
+</body>
+</html>

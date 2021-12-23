@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Caixinha</title>
+	<style type="text/css">
+		@keyframes colorir{
+			0%{
+				margin: 0;
+			}
+			30%{
+				background-color: lightsalmon;
+				margin-left: 300px;
+				margin-top: 0;
+			}
+			60%{
+				background-color: lightgreen;
+				margin-left: 450px;
+				margin-top: 400px;
+			}
+			100%{
+				background-color:lightgoldenrodyellow;
+				margin-left: 250px;
+				margin-top: 40px;
+			}
+		}
+
+		.box{
+			height: 100px;
+			width: 100px;
+			background-color: blue;
+			margin: 0px;
+			padding: 0px;
+			animation-name: colorir;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+
+	</div>
+</body>
+</html>

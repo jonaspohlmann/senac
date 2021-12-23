@@ -1,0 +1,119 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    list-style: none;
+    color: #333;
+    text-align: center;
+}
+
+nav { 
+	width: 320px; 
+}
+
+ul { 
+	display: flex; 
+	justify-content: space-between; 
+}
+
+a { 
+	text-decoration: none; 
+	color: #FFF; 
+}
+
+h1 {
+    color: #FFF;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    background-color: rgba(0,0,0,.8);
+    margin: 0;
+    padding-top:5px;
+    max-width: 700px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+
+
+img { 
+	max-width: 100%; 
+	border-radius: 3px; 
+}
+
+.logo img {
+    /* Máimo de 100% do container */
+    width: 200px;
+    /* display: block; */
+    border-radius: 3px;
+
+}
+
+.header {
+    background-color: #222;
+    padding-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header nav{
+    width: 320px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-between;					  
+}
+
+.header .menu a{
+    font-size: 1em;
+}
+
+menu li a:hover {
+    border-bottom: 3px solid #FF0000;
+}
+
+/* Banner Full */
+.full-banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    justify-content: center;
+    padding: 0 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.galeria {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.galeria > div {
+    margin: 10px;
+    flex-shrink: 1;
+    flex-grow:1;
+    flex-basis:200px;
+}
+
+footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #999;
+}
