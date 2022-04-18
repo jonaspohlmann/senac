@@ -1,0 +1,8 @@
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\obj\Debug\exercicios-18-04-22.csproj.AssemblyReference.cache
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\obj\Debug\exercicios-18-04-22.csproj.SuggestedBindingRedirects.cache
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\obj\Debug\exercicios-18-04-22.csproj.CoreCompileInputs.cache
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\bin\Debug\exercicios-18-04-22.exe.config
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\bin\Debug\exercicios-18-04-22.exe
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\bin\Debug\exercicios-18-04-22.pdb
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\obj\Debug\exercicios-18-04-22.exe
+C:\workspace\senac\2022-01\FDW\exercicios-18-04-22\exercicios-18-04-22\exercicios-18-04-22\obj\Debug\exercicios-18-04-22.pdb
