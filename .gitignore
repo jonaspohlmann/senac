@@ -339,3 +339,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ZIP, RAR
+.zip
+.7zip
+.rar

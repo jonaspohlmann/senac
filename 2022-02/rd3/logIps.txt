@@ -1,0 +1,1 @@
+                 URL | IP | Status| Data| Hora                           google.com.br | 172.217.29.3 | ATIVO | 19:00                           asa | N/A | INATIVO | 19:00                           terra.com.br | 208.84.244.116 | ATIVO | 19:01         

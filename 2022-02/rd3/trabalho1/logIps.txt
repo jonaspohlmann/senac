@@ -1,0 +1,4 @@
+                URL | IP | Status | Data | Hora                
+  google.com.br | 142.251.129.227 | ATIVO | 14/10/2022 | 19:40 
+         aaaaaaaa | N/A | INATIVO | 14/10/2022 | 19:40         
+   w3schools.com | 76.223.115.82 | ATIVO | 14/10/2022 | 19:40  
