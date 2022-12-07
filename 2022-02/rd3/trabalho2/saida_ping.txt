@@ -1,0 +1,5 @@
+URL: google.com.br
+IP: 142.251.128.99
+Status: ATIVO
+Data: 07/12/22
+Hora: 19:16:20

@@ -1,0 +1,5 @@
+Informacoes do Diretorio Atual: C:\workspace-pessoal\senac\2022-02\rd3\trabalho2
+Quantidade de arquivos: 5
+Arquivos: ['Client.py', 'saida_diretorio.txt', 'saida_ping.txt', 'Server.py', 'Test.py']
+Unidade de Disco: C:
+Pasta Atual: trabalho2
